@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- fontawesome css-->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <!-- modern stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>PortFolio - Live Resume</title>
+</head>
+
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="./assets/images/logo.png" alt="JohnnyBravo">
+        </div>
+        <div class="showcase-content">
+            <h1>Johannes Manamela</h1>
+            <p>Web Developer & Creative Designer</p>
+            <a href="#" class="btn btn-xl">
+                Download Resume
+                <i class="fas fa-chevron-right btn-icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-home fa-3x"></i>
+                <p class="hide-sm">Bio</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                <i class="fas fa-door-open fa-3x"></i>
+                <p class="hide-sm">My Projects</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                <i class="fas fa-envelope-open-text fa-3x"></i>
+                <p class="hide-sm">Keep in touch</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!--tab content 1 -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <p class="text-lg">
+                            i am a very honest, hardworking and determined individual who enjoys new challenges and can
+                            cope very well working under pressure. I have a strong desire for change, growth and
+                            improvement.
+                            i'm just a guy who love to get his hands dirty, when the computer is infront of me. i
+                            challange my self each day starting a new thing and i believe that the more i practice a
+                            lot, creating more projects, i can achieve more.
+                        </p>
+                        <a href="#" class="btn btn-lg">Read more..</a>
+                    </div>
+                    <img src="./assets/images/me.jpg" alt="">
+                </div>
+                <div id="skills">
+                    <h2 class="heading">Skills</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                        <li>html</li>
+                        <li>Css</li>
+                        <li>sass</li>
+                        <li>Adobe Master Collection</li>
+                    </ul>
+                </div>
+                <!-- End #skills -->
+                <div id="education">
+                    <h2 class="heading">Education</h2>
+                    <div class="education-block">
+                        <h3>Capricorn Tvet Collage</h3>
+                        <span class="education-date">Jan 2013 - Dec 2015</span>
+                        <h4>Information Technology and Computer Sciences</h4>
+                        <p>
+                            Mathematics, Electronics, System Analysis and Design, Principle of Computer Programming,
+                            Computer Hardware and Software, Data Communication and Networking, Computer Programming &
+                            Multimedia ( Multimedia Basics, Multimedia Content & Multimedia Services )
+                        </p>
+                    </div>
+                    <!-- End .education-block -->
+                    <div class="education-block">
+                        <h3>Dr AMS Makunyane Secondary School</h3>
+                        <span class="education-date">Jan 2008 - Dec 2012</span>
+                        <h4>Diploma</h4>
+                        <p>
+                            Mathematics, Physical Sciences, Life Sciences,
+                            Geography, English(FAL)
+                        </p>
+                    </div>
+                    <!-- End .education-block -->
+                </div>
+            </div>
+            <!--tab content 2 -->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <p class="text-lg">
+                        Check out my projects
+                    </p>
+                    <a href="#" class="btn btn-lg">For project, click me..</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="./assets/images/computers.png" alt="">
+                        <p class="text-md">Shopping Cart - Online shopping</p>
+                        <p class="text-dark">An online check out website</p>
+                        <a href="">view project</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/computers-2.png" alt="">
+                        <p class="text-md">Discount Check-out</p>
+                        <p class="text-dark">A search online shopping app that give a discount for shoppers</p>
+                        <a href="https://checkout-app.netlify.com">View Project</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/room-9.jpeg" alt="">
+                        <p class="text-md">Resort app</p>
+                        <p class="text-dark">Online Resort booking for everyone</p>
+                        <a href="https://hotel-resort.netlify.com">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tab 3 content -->
+            <div id="tab-3-content" class="tab-content-item">
+                <div class="text-center">
+                    <p class="text-lg">Choose how to keep in touch with us</p>
+                </div>
+                <div id="contact-form">
+                    <form method="POST" action="https://formspree.io/underscoreplk@gmail.com">
+                        <input type="hidden" name="_subject" value="Contact request from personal website" />
+                        <input type="email" name="_replyto" placeholder="Your email" required>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright text-center">
+                    <p>
+                        Copyright &copy; 2019 Johannes Manamela
+                    </p>
+                </div>
+                <div class="col-sm-5 social">
+                    <div class="social">
+                        <ul class="noBullets  d-flex justify-content-center">
+                            <li>
+                                <a href="https://github.com/johnnybravo23" target="_blank" class="nav-link">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/johnny_jnr" target="_blank" class="nav-link">
+                                    <i class="fab fa-twitter icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="nav-link">
+                                    <i class="fab fa-linkedin icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/johnnyjnr" target="_blank" class="nav-link">
+                                    <i class="fab fa-facebook icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/malumehoney" target="_blank" class="nav-link">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.googleplus.com/johnnyjnr" target="_blank" class="nav-link">
+                                    <i class="fab fa-google-plus mr-2 icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
